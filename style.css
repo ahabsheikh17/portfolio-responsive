@@ -103,17 +103,20 @@ body {
 }
 
 .secondcontainerone h2 {
-  font-size: 30px;
+  padding-top: 10px;
+  font-size: 34px;
 }
 
 .secondcontainerone p {
-  font-size: 18px;
+  padding-top: 15px;
+  line-height: 30px;
+  font-size: 22px;
 }
 
 .secondcontainertwo {
   display: flex;
   justify-content: space-between;
-}
+} 
 
 .secondcontainerthree {
     text-align: center;
