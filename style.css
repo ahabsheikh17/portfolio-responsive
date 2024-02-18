@@ -547,6 +547,24 @@
 
   /* PORTFOLIO PAGE RESPONSIVE */
 
+  .mainportfolio{
+    width: 420px;
+    margin-left: 0px;
+
+  }
+  .portfolioimg{
+    padding-top: 0px;
+    width: 420px;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .portfolioimg img{
+    
+    width: 380px;
+    height: 300px;
+
+  }
+
 
 
 }
