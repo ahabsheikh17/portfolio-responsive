@@ -409,12 +409,22 @@
 }
 
 @media (max-width: 420px) {
-    *{
-        margin: 0 ;
-        padding: 0 ;
-    }
-  
-    .firstcontainer {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .left img {
+    width: 150px;
+    height: 100px;
+    margin-left: -40px;
+  }
+  .right a{
+    gap: 0;
+    display: flex;
+    justify-content: none;
+  }
+
+  .firstcontainer {
     max-width: 420px;
     height: 800px;
   }
@@ -424,71 +434,89 @@
   .welcomecontainer {
     flex-direction: column-reverse;
   }
+  .welcomecontaineronea {
+    width: 350px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -20px;
+  }
   .welcomecontainertwo {
     width: 25%;
   }
   .welcomecontainertwo img {
     width: 300px;
+    margin-left: -20px;
     height: 300px;
   }
-  .secondcontainerone{
+  .secondcontainerone {
     width: 350px;
+    margin-left: -40px;
   }
-  .secondcontainertwo{
+  .secondcontainertwo {
     flex-direction: column;
   }
   .secondcontainertwo img {
     width: 250px;
     height: 100px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 5px;
   }
-  .secondcontainerthree{
+  .secondcontainerthree {
     width: 350px;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: 20px;
   }
-  .thirdcontainer{
+  .thirdcontainer {
     flex-direction: column;
   }
-  .thirdcontainerone img{
+  .thirdcontainerone img {
     width: 300px;
     height: 300px;
   }
-  .thirdcontainertwo{
+  .thirdcontainertwo {
     width: 350px;
     text-align: center;
     margin-left: -80px;
   }
-  .fourthcontainer{
+  .fourthcontainer {
     flex-direction: column-reverse;
   }
-  .fourthcontainertwo img{
+  .fourthcontainertwo img {
     width: 300px;
     height: 300px;
   }
-  .fourthcontaineronea{
+  .fourthcontaineronea {
     width: 350px;
     text-align: center;
+    margin-left: -30px;
   }
-  .fifthcontainerone{
+  .fifthcontainerone {
     width: 350px;
     text-align: center;
     margin-left: -20px;
   }
-  .fifthcontainertwo{
+  .fifthcontainertwo {
     flex-direction: column;
     margin-left: 30px;
   }
-  .fifthcontainertwo div{
+  .fifthcontainertwo div {
     margin-top: 50px;
-
   }
-  .fifthcontainerthree{
+  .fifthcontainerthree {
     width: 350px;
     display: flex;
     margin-left: 60px;
   }
-  .footercontainer{
+  .footer {
+    width: 420px;
+    height: 150px;
+  }
+  .footercontainer {
     width: 350px;
     flex-direction: column;
+  }
+  .footercontainer img {
+    margin-bottom: 30px;
   }
 }
