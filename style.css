@@ -408,6 +408,82 @@
   padding-bottom: 40px;
 }
 
+
+
+
+
+/* CONTACT STYLE CODING */
+
+.contacttext {
+    width: 1120px;
+    margin-left: 80px;
+    text-align: center;
+}
+.contacttext h1 {
+    padding-top: 10px;
+    font-size: 34px;
+  }
+  
+  .contacttext p {
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+  .contactcontainermessage{
+    width: 1120px;
+    margin-left: 80px;
+    margin-right: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contactform{
+    width: 50%;
+  }
+
+  .contactform label{
+    font-size: 18px;
+  }
+
+  .contactform input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .contactform textarea{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100px;
+  }
+
+  .contactform button{
+    width: 90%;
+    height: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+
+  }
+
+  .contactimg{
+    width: 50%;
+  }
+
+  .contactimg img{
+    width: 90%;
+    height: 90%;
+  }
+
+
 @media (max-width: 375px) {
 
     /* HOME PAGE RESPONSIVE */
