@@ -16,19 +16,22 @@
 }
 .navbar {
   display: flex;
-
+  height: 60px;
+  background-color: #74c69d;
   align-items: center;
-  width: 1120px;
+  width: 1260px;
   padding-top: 20px;
-  margin-left: 80px;
-  margin-right: 80px;
+  /* margin-left: 80px;
+  margin-right: 80px; */
 }
 .left {
   width: 60%;
+  margin-left: 80px;
 }
 
 .right {
   width: 40%;
+  margin-right: 80px;
   display: flex;
   justify-content: flex-end;
   gap: 60px;
@@ -69,15 +72,14 @@
 }
 
 .welcomecontaineronea button {
-    margin-top: 10px;
-    width: 160px;
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-  
+  margin-top: 10px;
+  width: 160px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
 
 .welcomecontainertwo {
@@ -91,14 +93,12 @@
 
 .main {
   width: 1260px;
-  /* background-color: greenyellow; */
 }
 
 .secondcontainer {
   width: 1120px;
   margin-left: 80px;
   margin-right: 80px;
-  /* background-color: khaki; */
 }
 
 .secondcontainerone {
@@ -292,22 +292,203 @@
   border-radius: 5px;
 }
 
-.footer{
-    
-    width: 100%;
-    height: 100px;
-    background-color: #74c69d;
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #74c69d;
 }
 
-.footercontainer{
-    width: 1120px;
-    margin-left: 80px;
-    margin-right: 80px;
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
+.footercontainer {
+  width: 1120px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
-.footercontainerright{
-    font-size: 18px;
-    color: #fff;
+.footercontainerright {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* PORTFOLIO CODING */
+
+.mainportfolio {
+  width: 1120px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.portfoliotext {
+  width: 100%;
+  text-align: center;
+}
+
+.portfoliotext h4 {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #74c69d;
+}
+
+.portfoliotext h1 {
+  padding-top: 10px;
+  font-size: 34px;
+}
+
+.portfoliotext p {
+  padding-top: 15px;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+.portfolioimg {
+  padding-top: 70px;
+  gap: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolioimg img {
+  width: 525px;
+}
+
+.portfoliobutton {
+  width: 1120px;
+  text-align: center;
+}
+
+.portfoliobutton button {
+  margin-top: 40px;
+  width: 160px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* SERVICE CODING */
+
+.servicemain {
+  width: 1120px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.servicetext {
+  width: 100%;
+  text-align: center;
+}
+
+.servicetext h4 {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #74c69d;
+}
+
+.servicetext h1 {
+  padding-top: 10px;
+  font-size: 34px;
+}
+
+.servicetext p {
+  padding-top: 15px;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+.seviceimg {
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seviceimg img {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 420px) {
+    *{
+        margin: 0 ;
+        padding: 0 ;
+    }
+  
+    .firstcontainer {
+    max-width: 420px;
+    height: 800px;
+  }
+  .navbar {
+    max-width: 420px;
+  }
+  .welcomecontainer {
+    flex-direction: column-reverse;
+  }
+  .welcomecontainertwo {
+    width: 25%;
+  }
+  .welcomecontainertwo img {
+    width: 300px;
+    height: 300px;
+  }
+  .secondcontainerone{
+    width: 350px;
+  }
+  .secondcontainertwo{
+    flex-direction: column;
+  }
+  .secondcontainertwo img {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .secondcontainerthree{
+    width: 350px;
+  }
+  .thirdcontainer{
+    flex-direction: column;
+  }
+  .thirdcontainerone img{
+    width: 300px;
+    height: 300px;
+  }
+  .thirdcontainertwo{
+    width: 350px;
+    text-align: center;
+    margin-left: -80px;
+  }
+  .fourthcontainer{
+    flex-direction: column-reverse;
+  }
+  .fourthcontainertwo img{
+    width: 300px;
+    height: 300px;
+  }
+  .fourthcontaineronea{
+    width: 350px;
+    text-align: center;
+  }
+  .fifthcontainerone{
+    width: 350px;
+    text-align: center;
+    margin-left: -20px;
+  }
+  .fifthcontainertwo{
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .fifthcontainertwo div{
+    margin-top: 50px;
+
+  }
+  .fifthcontainerthree{
+    width: 350px;
+    display: flex;
+    margin-left: 60px;
+  }
+  .footercontainer{
+    width: 350px;
+    flex-direction: column;
+  }
 }
