@@ -409,6 +409,8 @@
 }
 
 @media (max-width: 420px) {
+
+    /* HOME PAGE RESPONSIVE */
   * {
     margin: 0;
     padding: 0;
@@ -433,11 +435,14 @@
   }
   .welcomecontainer {
     flex-direction: column-reverse;
+    width: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   .welcomecontaineronea {
     width: 350px;
     text-align: center;
-    margin-left: -50px;
+    margin-left: -20px;
     margin-top: -20px;
   }
   .welcomecontainertwo {
@@ -448,12 +453,22 @@
     margin-left: -20px;
     height: 300px;
   }
+  .main{
+    width: 420px;
+  }
+  .secondcontainer{
+    width: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
   .secondcontainerone {
     width: 350px;
-    margin-left: -40px;
+    margin-left: 0px;
   }
   .secondcontainertwo {
     flex-direction: column;
+    width: 300px;
+    margin-left: 30px;
   }
   .secondcontainertwo img {
     width: 250px;
@@ -480,6 +495,7 @@
     margin-left: -80px;
   }
   .fourthcontainer {
+    width: 300px;
     flex-direction: column-reverse;
   }
   .fourthcontainertwo img {
@@ -491,14 +507,18 @@
     text-align: center;
     margin-left: -30px;
   }
+  .fifthcontainer{
+    width: 300px;
+  }
   .fifthcontainerone {
     width: 350px;
     text-align: center;
-    margin-left: -20px;
+    margin-left: -60px;
   }
   .fifthcontainertwo {
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 0px;
+    width: 250px;
   }
   .fifthcontainertwo div {
     margin-top: 50px;
@@ -514,9 +534,19 @@
   }
   .footercontainer {
     width: 350px;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 40px;
+    align-items: center;
     flex-direction: column;
+
   }
   .footercontainer img {
     margin-bottom: 30px;
   }
+
+  /* PORTFOLIO PAGE RESPONSIVE */
+
+
+
 }
